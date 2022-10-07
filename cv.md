@@ -50,6 +50,8 @@ Solved many tests but unfortunately didn't make any projects yet( But i am worki
 
 - Currently a student at the The Rolling Scopes School (Front-end/JavaScript)
 - FreeCodeCamp Academy
+- Scientific Computing with Python Cerifivate from FreeCodeCamp
+- Also studying in WSB Wroclaw University(IT faculty)
 
 ### 🌐 Language
 
