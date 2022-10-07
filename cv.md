@@ -28,12 +28,8 @@
 
 - JavaScript
 - HTML5
-- CSS3/SASS
+- CSS3
 - git + github
-- Node.js
-- Bootstrap
-- Responsive Design
-- SEO
 
 ### ✍️ Code Example
 
