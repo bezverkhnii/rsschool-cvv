@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width:100%;
+    max-width:1000px;
+    min-height:1000px;
+    background: #fff;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+    border-radius: 1%;
+}
+.container .header{
+    position: relative;
+    background: #ffffff;
+    padding:40px;
+    justify-content: center;
+    align-items: center;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom:5px;
+}
+.profileText .imgBox{
+    position: relative;
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    overflow:hidden;
+    margin-top:30px;
+    margin-bottom:5px;
+}
+.profileText .imgBox img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color:rgb(0, 0, 0);
+    font-size: 1.3em;
+    margin-top:20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.profileText h2 span{
+    font-size:0.8em;
+    font-weight: 100;
+    border-bottom:1px solid grey;
+}
+.shortinfo ul{
+    list-style: none;
+    position: relative;
+}
+.pic{
+    display: flex;
+    padding:5px;
+}
+.pic .icon{
+    padding:10px; 
+}
+
+li{
+    display:flex;
+    padding:3px;
+}
+li .icon{
+    padding:5px;
+}
+.shortinfo{
+    width:100%;
+    max-width:1000px;
+    min-height:1000px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:5px;
+}
+.shortinfo .icon{
+    display: flex;
+    justify-content: center;
+}
+.shortinfo .summary{
+    font-size: 20px;
+}
+.skills{
+    font-size: 20px;
+}
+.skills .pic{
+    padding:10px 10px 1px 10px;
+}
+.list{
+    display: flex;
+    padding:5px;
+}
+.list li .icon{
+    padding:5px;
+}
+.experience{
+    font-size: 20px;
+}
+.experience .pic .icon{
+    padding:10px;
+}
+.experience p{
+    padding:10px;
+}
+.education{
+    font-size: 20px;
+}
+.education .pic .icon{
+    padding:9px;
+}
+.education ul{
+    display: flex;
+    position: relative;
+}
+.education .icon{
+    display: inline-block;
+    padding:5px;
+}
+footer {
+    width:100%;
+    max-width:1000px;
+    display:flex;
+    justify-content: center;
+    border-top:1px solid grey;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    padding-right:100px;
+    text-transform: uppercase;
+}
+footer .text{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+
+}
+ 
+
+img{
+    height:23px;
+    width:50px;
+    display: inline;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+.text{
+    display: inline;
+    justify-content: center;
+}
+.date{
+    display: flex;
+    justify-content: center;
+}
+.anch{
+    display: flex;
+    justify-content: center;
+    color:rgba(0,0,0,0.2)
+}
