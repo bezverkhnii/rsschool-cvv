@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:50px 10%;
+    background-color: #f7ffad;
+}
+.imgBox{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imgBox img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+h1{
+    font-size: 40px;
+    padding:15px;
+    color:rgb(53, 53, 53);
+}
+h2{
+    padding:10px;
+    color:rgb(55, 55, 55);
+}
+.contactInfo{
+    padding-top: 25px;
+    list-style: none;
+}
+.contactInfo li{
+    display: inline-block;
+}
+.contactInfo li a{
+    padding:9px 20px;
+    background-color: rgb(251, 255, 0);
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+}
+.contactInfo li a:hover{
+    background-color: rgba(163, 171, 94, 0.8);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 1000px;
+}
+.container ul{
+    display: flex;
+    gap: 20px;
+}
+.container .intro h2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .intro p{
+    font-size: 25px;
+    color:rgb(40, 40, 40);
+}
+.container .edu h2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .edu ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .edu ul li{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding:10px;
+}
+.container .skills h2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .skills p{
+    font-size: 25px;
+    color:rgb(46, 46, 46);
+}
+.container .skills ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .skills ul li{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding:5px;
+}
+.container .codeex h2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .codeex pre{
+    font-size: 25px;
+    color:rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.container .work h2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .work p{
+    font-size: 25px;
+    color:rgb(49, 49, 49);
+}
+.container .work p a{
+    font-size: 25px;
+    color: rgb(160, 160, 72);
+}
+.container .work p a:hover{
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+.lang h2{
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.lang ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lang ul li{
+    font-size: 25px;
+    padding:10px;
+}
+.contact h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.contact ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.contact ul li{
+    font-size: 20px;
+}
+footer{
+    padding:20px;
+    border-top:1px solid grey;
+    margin-top:20px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    list-style: none;
+}
+footer ul li{
+    font-size:20px;
+}
+footer ul li img{
+    display: flex;;
+    height:40px;
+    width:auto;
+    padding-bottom: 10px;
+}
+footer ul li a:hover{
+    color:#6e772b;
+}
